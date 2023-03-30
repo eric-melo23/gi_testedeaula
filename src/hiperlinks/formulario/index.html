@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+</head>
+<body>
+
+
+    <form> 
+    
+        
+        <label for="nome">Nome</label>
+       <input type="text" id="nome" name="nome" placeholder="Digite seu nome..." required="true"/>
+
+
+       <label for="senha"> senha</label>
+       <input type="password" id="senha" name="senha" placeholder="Digite sua senha..." required="true"/>
+
+     
+    </form>
+
+    <form>
+
+        <p>Qual melhor meio de contato?</p>
+
+        
+        <label for="email">E-mail</label>        
+        <input id="email"  type="radio" required name="meiodeontato"  value="email">
+        
+        
+       
+        <label for="whatsapp">whatsapp</label>
+        <input id="whatsapp"  type="radio" required name="meiodeontato"  value="whatsapp">
+        
+
+        
+        
+        <label for="chamada">Chamada</label>
+        <input id="chamada" type="radio" required name="meiodeontato"  value="chamada">
+
+
+    </form>
+    <br>
+
+    <form>
+        <label for="planos">Planos</label>
+        <select id="planos" name="plano" required="true">
+           <option value="">Escolher plano</option>
+           <option value="free">Free</option>
+           <option value="pró">Pró</option>
+           <option value="premium">Premium</option>
+
+
+
+
+        </select>
+
+        <button type="submit">Cadastrar</button>
+    
+
+    </form>
+
+    <form>
+        <br>
+        
+        <label for="mensagem">mensagem</label>
+
+        <textarea id="mensagem" name="mensagem" placeholder="Deixe sua mensagem..." required cols="30" rows="10"></textarea>
+
+     <button type="submit">Enviar</button>
+
+
+
+    </form>
+
+    <ol>
+        <li>
+            mae
+        </li>
+    </ol>
+   
+
+
+</body>
+</html>
